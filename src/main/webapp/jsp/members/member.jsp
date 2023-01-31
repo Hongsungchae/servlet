@@ -1,6 +1,7 @@
  <%@ page import="servlet.member.Member"%>
  <%@ page import="servlet.member.MemberRepository" %>
  <%@ page import="java.util.List"%>
+
   <%@ page contentType="text/html;charset=UTF-8" language="java" %>
   <%
     // request, response 사용 가능
