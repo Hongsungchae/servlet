@@ -1,7 +1,7 @@
-package servlet.web.servlet;
+package hello.domain.servlet.web.servlet;
 
-import servlet.member.Member;
-import servlet.member.MemberRepository;
+import hello.domain.servlet.member.Member;
+import hello.domain.servlet.member.MemberRepository;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(name = "memberListServlet", urlPatterns = "/servlet/members")
+@WebServlet(name = "memberListServlet", urlPatterns = "/hello/domain/servlet/members")
 public class MemberListServlet extends HttpServlet {
     private MemberRepository memberRepository = MemberRepository.getInstance();
     @Override

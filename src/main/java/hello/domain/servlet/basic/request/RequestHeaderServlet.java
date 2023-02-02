@@ -1,4 +1,4 @@
-package servlet.basic.request;
+package hello.domain.servlet.basic.request;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

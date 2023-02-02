@@ -1,5 +1,5 @@
- <%@ page import="servlet.member.Member"%>
-  <%@ page import="servlet.member.MemberRepository" %>
+ <%@ page import="hello.domain.servlet.member.Member"%>
+  <%@ page import="hello.domain.servlet.member.MemberRepository" %>
   <%@ page contentType="text/html;charset=UTF-8" language="java" %>
   <%
     // request, response 사용 가능
